@@ -1,0 +1,14 @@
+{
+  "project": "WorkPilot AI Film Studio",
+  "version": "0.1",
+  "current_scene": {
+    "id": "S-000",
+    "title": "Opening System",
+    "status": "draft",
+    "emotion": "neutral",
+    "summary": "System is initializing",
+    "events": []
+  },
+  "characters": [],
+  "timeline": []
+}
