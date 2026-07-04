@@ -1,22 +1,14 @@
-# WorkPilot API Specification
+# API Spec
 
-## Overview
-
-This document defines all core APIs for WorkPilot backend system.
-
-It enables communication between frontend, backend, and AI engine.
-
----
-
-## Authentication APIs
-
-### Login
-
-POST /api/auth/login
+POST /api/chat
 
 Request:
-```json
 {
-  "email": "string",
-  "password": "string"
+  "message": "text"
+}
+
+Response:
+{
+  "scene": {},
+  "status": ""
 }
